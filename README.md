@@ -14,3 +14,4 @@ npm i --save-dev node-fetch@2.6.7
 ### Running the app
 `npm run start`
 
+### Or you can just run the .exe file from the releases
