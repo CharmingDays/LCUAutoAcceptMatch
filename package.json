@@ -10,7 +10,7 @@
     "node-fetch": "^2.6.7"
   },
   "name": "LCUAutoAcceptMatch",
-  "description": "A league of legends websocket lib",
+  "description": "Automatically accept league of legends matches for you.",
   "version": "1.0.0",
   "main": "app.js",
   "bin": "build/app.js",
