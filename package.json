@@ -1,0 +1,45 @@
+{
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "@types/node-fetch": "^2.6.2",
+    "dotenv": "^16.0.3",
+    "ws": "^8.11.0"
+  },
+  "dependencies": {
+    "@types/ws": "^8.5.3",
+    "mongodb": "^4.13.0",
+    "node-fetch": "^2.6.7"
+  },
+  "name": "leaguesocket",
+  "description": "A league of legends websocket lib",
+  "version": "1.0.0",
+  "main": "app.js",
+  "bin": "build/app.js",
+  "pkg": {
+    "assets": [
+      "node_module/**/*",
+      "build/**/*"
+    ],
+    "targets": [
+      "node18-win-x64"
+    ]
+  },
+  "scripts": {
+    "start": "npx tsc && node build/app.js",
+    "pkg": "pkg --output dist/lcu .",
+    "again": "node build/app.js",
+    "watcher": "tsc --watch",
+    "build": "npx tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CharmingDays/LeagueSocket.git"
+  },
+  "keywords": [],
+  "author": "Charming Days",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CharmingDays/LeagueSocket/issues"
+  },
+  "homepage": "https://github.com/CharmingDays/LeagueSocket#readme"
+}
