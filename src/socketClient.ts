@@ -1,7 +1,6 @@
 import WebSocket from "ws";
-import { RequestOpts, Subscribers } from "./interfaces";
+import { RequestOpts, Subscribers,LockfileData } from "./interfaces";
 import { readFile, watch } from "fs/promises";
-import { LockfileData } from "./interfaces";
 import { existsSync, readFileSync } from "fs";
 import { setTimeout } from "timers/promises";
 import { Agent } from "https";
