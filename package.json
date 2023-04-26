@@ -10,36 +10,23 @@
     "mongodb": "^4.13.0",
     "node-fetch": "^2.6.7"
   },
-  "name": "leaguesocket",
+  "name": "LCUAutoAcceptMatch",
   "description": "A league of legends websocket lib",
   "version": "1.0.0",
   "main": "app.js",
   "bin": "build/app.js",
-  "pkg": {
-    "assets": [
-      "node_module/**/*",
-      "build/**/*"
-    ],
-    "targets": [
-      "node18-win-x64"
-    ]
-  },
   "scripts": {
     "start": "npx tsc && node build/app.js",
-    "pkg": "pkg --output dist/lcu .",
-    "again": "node build/app.js",
-    "watcher": "tsc --watch",
-    "build": "npx tsc"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CharmingDays/LeagueSocket.git"
+    "url": "git+https://github.com/CharmingDays/LCUAutoAcceptMatch.git"
   },
   "keywords": [],
   "author": "Charming Days",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/CharmingDays/LeagueSocket/issues"
+    "url": "https://github.com/CharmingDays/LCUAutoAcceptMatch/issues"
   },
-  "homepage": "https://github.com/CharmingDays/LeagueSocket#readme"
+  "homepage": "https://github.com/CharmingDays/LCUAutoAcceptMatch#readme"
 }
