@@ -11,6 +11,10 @@ npm i  types/node-fetch
 npm i --save-dev ws
 npm i --save-dev node-fetch@2.6.7
 ```
+OR
+isntall them from `package.json`
+`npm install`
+
 ### Running the app
 `npm run start`
 
