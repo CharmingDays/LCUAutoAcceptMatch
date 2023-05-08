@@ -18,4 +18,7 @@ isntall them from `package.json`
 ### Running the app
 `npm run start`
 
+#NOTE:
+YOU WILL NEED TO HAVE YOUR LEAGUE OF LEGENDS INSTALLED IN `C:\RIOT GAMES\LEAGUE OF LEGENDS` FOR THIS TO WORK.
+
 ### Or you can just run the .exe file from the releases
